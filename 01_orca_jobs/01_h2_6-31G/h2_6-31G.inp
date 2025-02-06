@@ -1,0 +1,14 @@
+!HF 6-31G
+
+%output
+   Print[P_Overlap] 1
+   Print[P_OneElec] 1
+   Print[P_Density] 1
+   Print[P_Fockian] 1
+   Print[P_Iter_F]  1
+end
+
+* xyz 0 1
+H    0.0000    0.0000    0.0000
+H    0.0626   -0.4973   -0.4973
+*
