@@ -156,7 +156,7 @@ INFO   : the flag for use of the SHARK integral package has been found!
                                        INPUT FILE
 ================================================================================
 NAME = h2_6-31G.inp
-|  1> ! RHF 6-31G
+|  1> ! SP RHF 6-31G
 |  2> ! PrintBasis
 |  3> 
 |  4> %output
@@ -369,11 +369,11 @@ Convergence Tolerance:
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 8.928e-02
-Time for diagonalization                   ...    0.000 sec
+Time for diagonalization                   ...    0.005 sec
 Threshold for overlap eigenvalues          ... 1.000e-08
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.000 sec
-Total time needed                          ...    0.000 sec
+Time for construction of square roots      ...    0.002 sec
+Total time needed                          ...    0.008 sec
 
 ------------------------
 ONE ELECTRON MATRIX (AU)
@@ -391,7 +391,7 @@ OVERLAP MATRIX
       1       0.658292   1.000000   0.520919   0.866268
       2       0.486155   0.520919   1.000000   0.658292
       3       0.520919   0.866268   0.658292   1.000000
-Time for model grid setup =    0.003 sec
+Time for model grid setup =    0.021 sec
 
 ------------------------------
 INITIAL GUESS: MODEL POTENTIAL
@@ -585,18 +585,18 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.152 sec
-Sum of individual times     ....       0.013 sec  (  8.5%)
+Total time                  ....       0.199 sec
+Sum of individual times     ....       0.051 sec  ( 25.8%)
 
-Fock matrix formation       ....       0.006 sec  (  4.0%)
-Diagonalization             ....       0.001 sec  (  0.4%)
+Fock matrix formation       ....       0.008 sec  (  3.8%)
+Diagonalization             ....       0.000 sec  (  0.1%)
 Density matrix formation    ....       0.000 sec  (  0.0%)
 Population analysis         ....       0.001 sec  (  0.7%)
-Initial guess               ....       0.002 sec  (  1.0%)
+Initial guess               ....       0.020 sec  ( 10.2%)
 Orbital Transformation      ....       0.000 sec  (  0.0%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.000 sec  (  0.3%)
-SOSCF solution              ....       0.000 sec  (  0.2%)
+DIIS solution               ....       0.001 sec  (  0.4%)
+SOSCF solution              ....       0.000 sec  (  0.1%)
 
 Maximum memory used throughout the entire SCF-calculation: 223.1 MB
 
@@ -655,8 +655,8 @@ x,y,z [Debye]:    -0.000000     0.000000     0.000000
 
 Timings for individual modules:
 
-Sum of individual times         ...        0.219 sec (=   0.004 min)
-GTO integral calculation        ...        0.045 sec (=   0.001 min)  20.7 %
-SCF iterations                  ...        0.173 sec (=   0.003 min)  79.3 %
+Sum of individual times         ...        0.306 sec (=   0.005 min)
+GTO integral calculation        ...        0.076 sec (=   0.001 min)  25.0 %
+SCF iterations                  ...        0.230 sec (=   0.004 min)  75.0 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 0 seconds 285 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 0 seconds 447 msec
