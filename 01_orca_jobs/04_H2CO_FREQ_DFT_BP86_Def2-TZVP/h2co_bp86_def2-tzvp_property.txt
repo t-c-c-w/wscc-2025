@@ -1,0 +1,173 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -114.5544885686
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                  8.0000025313 
+   Number of Beta  Electrons                  8.0000025313 
+   Total number of  Electrons                16.0000050626 
+   Exchange energy                          -14.1345181240 
+   Correlation energy                        -0.5673240034 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -14.7018421274 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -114.5544885686 
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 4
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 3
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     5.9441     6.0000     0.0559     3.9224     3.9224    -0.0000
+  1   0     8.2143     8.0000    -0.2143     2.1710     2.1710     0.0000
+  2   0     0.9208     1.0000     0.0792     0.9326     0.9326     0.0000
+  3   0     0.9208     1.0000     0.0792     0.9326     0.9326    -0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            8                2.113676
+                0             6               2            1                0.904350
+                0             6               3            1                0.904350
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       4
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             74
+     number of aux C basis functions:       0
+     number of aux J basis functions:       120
+     number of aux JK basis functions:      0
+     number of aux CABS basis functions:    0
+     Total Energy                           -114.554489
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : h2co_bp86_def2-tzvp.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        2.1947435296
+        Electronic Contribution:
+                  0    
+      0       1.376332
+      1      -0.000000
+      2      -0.000000
+        Nuclear Contribution:
+                  0    
+      0      -2.239793
+      1       0.000000
+      2       0.000000
+        Total Dipole moment:
+                  0    
+      0      -0.863461
+      1      -0.000000
+      2      -0.000000
+# -----------------------------------------------------------
+$ Hessian
+   description: Details about the Hessian
+   geom. index: 1
+   prop. index: 1
+Normal modes:
+Number of Rows: 12 Number of Columns: 12
+                  0          1          2          3          4          5    
+      0       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      1       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      2       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      3       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      4       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      5       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      6       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      7       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      8       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+      9       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     10       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     11       0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+                  6          7          8          9         10         11    
+      0      -0.000000   0.000000   0.007467  -0.585707   0.055351  -0.000000
+      1      -0.000000  -0.148122  -0.000000  -0.000000  -0.000000  -0.101619
+      2       0.174184  -0.000000  -0.000000  -0.000000  -0.000000   0.000000
+      3      -0.000000  -0.000000  -0.082731   0.410192   0.002643   0.000000
+      4       0.000000   0.079771   0.000000   0.000000  -0.000000   0.000763
+      5      -0.043111   0.000000   0.000000   0.000000   0.000000  -0.000000
+      6       0.000000   0.650872   0.612064   0.234257  -0.350749  -0.368216
+      7       0.000000   0.249427   0.349181   0.435279   0.612731   0.599377
+      8      -0.695630   0.000000   0.000000   0.000000   0.000000  -0.000000
+      9      -0.000000  -0.650872   0.612064   0.234257  -0.350749   0.368216
+     10       0.000000   0.249427  -0.349181  -0.435279  -0.612731   0.599377
+     11      -0.695630   0.000000   0.000000   0.000000   0.000000  -0.000000
+# -----------------------------------------------------------
+$ THERMOCHEMISTRY_Energies
+   description: The Thermochemistry energies
+   geom. index: 1
+   prop. index: 1
+        Temperature (Kelvin)           :        298.1500000000
+        Pressure (atm)                 :          1.0000000000
+        Total Mass (AMU)               :         30.0260000000
+        Spin Degeneracy                :          1.0000000000
+        Electronic Energy (Hartree)    :       -114.5544885686
+        Translational Energy (Hartree) :          0.0014162714
+        Rotational Energy (Hartree)    :          0.0014162714
+        Vibrational Energy (Hartree)   :          0.0000423505
+        Number of frequencies          :     12      
+        Scaling Factor for frequencies :          1.0000000000
+        Vibrational frequencies        :     
+                  0    
+      0       0.000000
+      1       0.000000
+      2       0.000000
+      3       0.000000
+      4       0.000000
+      5       0.000000
+      6     1152.392289
+      7     1224.155103
+      8     1486.156959
+      9     1761.564050
+     10     2784.132989
+     11     2828.426340
+        Zero Point Energy (Hartree)    :          0.0255993772
+        Inner Energy (Hartree)         :       -114.5260142981
+        Enthalpy (Hartree)             :       -114.5250700890
+        Electronic entropy             :          0.0000000000
+        Rotational entropy             :          0.0076277225
+        Vibrational entropy            :          0.0000494962
+        Translational entropy          :          0.0076277225
+        Entropy                        :          0.0248445355
+        Gibbs Energy (Hartree)         :       -114.5499146245
+        Is Linear                      :                 false
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    4 
+    Geometry Index:     1 
+    Coordinates:
+               0 C      0.002215000000    0.000000000000    0.000000000000
+               1 O      1.210770000000   -0.000000000000   -0.000000000000
+               2 H     -0.592190000000    0.947697000000   -0.000000000000
+               3 H     -0.592190000000   -0.947697000000   -0.000000000000

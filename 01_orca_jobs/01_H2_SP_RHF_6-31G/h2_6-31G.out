@@ -156,20 +156,21 @@ INFO   : the flag for use of the SHARK integral package has been found!
                                        INPUT FILE
 ================================================================================
 NAME = h2_6-31G.inp
-|  1> !HF 6-31G
-|  2> 
-|  3> %output
-|  4>    Print[P_Overlap] 1
-|  5>    Print[P_OneElec] 1
-|  6>    Print[P_Density] 1
-|  7>    Print[P_Fockian] 1
-|  8>    Print[P_Iter_F]  1
-|  9> end
-| 10> 
-| 11> * xyz 0 1
-| 12> H    0.0000    0.0000    0.0000
-| 13> H    0.0626   -0.4973   -0.4973
-| 14> **                         ****END OF INPUT****
+|  1> ! RHF 6-31G
+|  2> ! PrintBasis
+|  3> 
+|  4> %output
+|  5>    Print[P_Overlap]     1
+|  6>    Print[P_OneElec]     1
+|  7>    Print[P_Density]     1
+|  8>    Print[P_Fockian]     1
+|  9>    Print[P_Iter_F]      1
+| 10> end
+| 11> 
+| 12> * xyz 0 1
+| 13> H    0.0000    0.0000    0.0000
+| 14> H    0.0626   -0.4973   -0.4973
+| 15> **                         ****END OF INPUT****
 ================================================================================
 
                        ****************************
@@ -210,6 +211,21 @@ There are 1 groups of distinct atoms
 
 Atom   0H    basis set group =>   1
 Atom   1H    basis set group =>   1
+
+-------------------------
+BASIS SET IN INPUT FORMAT
+-------------------------
+
+ # Basis set for element : H 
+ NewGTO H 
+ S 3 
+   1      18.7311370000      0.0334945995
+   2       2.8253937000      0.2347269467
+   3       0.6401217000      0.8137573184
+ S 1 
+   1       0.1612778000      1.0000000000
+  end;
+
 ------------------------------------------------------------------------------
                            ORCA GTO INTEGRAL CALCULATION
 ------------------------------------------------------------------------------
@@ -356,8 +372,8 @@ Smallest eigenvalue                        ... 8.928e-02
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-08
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
-Total time needed                          ...    0.002 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.000 sec
 
 ------------------------
 ONE ELECTRON MATRIX (AU)
@@ -569,18 +585,18 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.159 sec
-Sum of individual times     ....       0.012 sec  (  7.7%)
+Total time                  ....       0.152 sec
+Sum of individual times     ....       0.013 sec  (  8.5%)
 
-Fock matrix formation       ....       0.006 sec  (  3.7%)
-Diagonalization             ....       0.000 sec  (  0.1%)
+Fock matrix formation       ....       0.006 sec  (  4.0%)
+Diagonalization             ....       0.001 sec  (  0.4%)
 Density matrix formation    ....       0.000 sec  (  0.0%)
-Population analysis         ....       0.001 sec  (  0.6%)
+Population analysis         ....       0.001 sec  (  0.7%)
 Initial guess               ....       0.002 sec  (  1.0%)
 Orbital Transformation      ....       0.000 sec  (  0.0%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.001 sec  (  0.3%)
-SOSCF solution              ....       0.000 sec  (  0.1%)
+DIIS solution               ....       0.000 sec  (  0.3%)
+SOSCF solution              ....       0.000 sec  (  0.2%)
 
 Maximum memory used throughout the entire SCF-calculation: 223.1 MB
 
@@ -640,7 +656,7 @@ x,y,z [Debye]:    -0.000000     0.000000     0.000000
 Timings for individual modules:
 
 Sum of individual times         ...        0.219 sec (=   0.004 min)
-GTO integral calculation        ...        0.041 sec (=   0.001 min)  18.8 %
-SCF iterations                  ...        0.178 sec (=   0.003 min)  81.2 %
+GTO integral calculation        ...        0.045 sec (=   0.001 min)  20.7 %
+SCF iterations                  ...        0.173 sec (=   0.003 min)  79.3 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 0 seconds 277 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 0 seconds 285 msec
