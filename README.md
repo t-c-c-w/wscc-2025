@@ -1,56 +1,33 @@
 # Fifth Winter School of Computational Chemistry
 
-Welcome to the official repository for the **Fifth Winter School of Computational Chemistry**! This repository contains essential scripts, installation guides, and documentation for running computational chemistry jobs efficiently using **ORCA**, **Python**, and **Bash scripts** within **VSCode**.
+Welcome to the official repository for the **Fifth Winter School of Computational Chemistry**. This repository contains essential resources, including installation guides, ORCA job files, and Python scripts, to assist participants in setting up and running computational chemistry simulations.
 
-## 📌 Overview
-This repository is designed to help participants set up their computational environment and execute chemistry-related scripts smoothly. It includes:
-- ORCA installation and setup
-- Python scripts for data processing and automation
-- Bash scripts for job execution
-- Documentation on using **VSCode** as an IDE for running calculations
+## Repository Structure
 
-## 📦 Installation Guide
-### 1️⃣ Prerequisites
-Before proceeding, ensure you have the following installed:
-- **VSCode** (Download: [here](https://code.visualstudio.com/))
-- **ORCA** (Download: [here](https://orcaforum.kofo.mpg.de/))
-- **Python (≥3.8)** (Download: [here](https://www.python.org/downloads/))
-- **Bash (for Linux/Mac or Git Bash for Windows)**
+The repository is organized into the following directories:
 
-### 2️⃣ Setting Up the Environment
-#### ORCA Setup
-1. Download and extract ORCA.
-2. Add ORCA’s directory to your system’s `PATH`.
-3. Set environment variables (`ORCA_PATH` and `LD_LIBRARY_PATH` on Linux/Mac).
+- **Installation Manual** – Step-by-step instructions for setting up the required computational chemistry tools.
+- **ORCA Jobs** – Sample ORCA input files and example calculations used in computational exercises throughout the winter school.
+- **Python Scripts** – Helpful Python utilities for data analysis, workflow automation, and computational exercises.
+- **Test Suite** – A set of tests to verify the successful installation of required software on your system.
 
-#### Python Setup
-```bash
-pip install -r requirements.txt
-```
-This will install all required dependencies for the Python scripts.
+The directory names are self-explanatory, and each contains the necessary documentation to guide users.
 
-### 3️⃣ Configuring VSCode
-We recommend using **VSCode** due to its extensive extensions and strong community support. Install the following extensions:
-- **Python** (for running Python scripts)
-- **Bash Debug** (for debugging shell scripts)
-- **Remote - SSH** (for submitting jobs on HPC clusters)
+## Getting Started
 
-## 🚀 Running the Scripts
-### Running ORCA Calculations
-```bash
-orca input_file.inp > output_file.out
-```
-### Running Python Scripts
-```bash
-python script.py
-```
-### Running Bash Scripts
-```bash
-bash run_job.sh
-```
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/t-c-c-w/wscc-2025.git
+   cd winter-school-chemistry
+   ```
+2. Follow the **Installation Manual** to set up your environment.
+3. Use the **ORCA Jobs** and **Python Scripts** for computational exercises.
+4. Run the **Test Suite** to ensure all required software is installed correctly.
 
-## 🤓 Enjoy the Quantum Chemistry Ride!
-Remember, in quantum chemistry:
-> *If the wavefunction isn’t real, then neither is your data!* 😆
+## Support
 
-Happy computing! 🚀🔬
+If you encounter any issues or have questions, feel free to reach out via:
+- **Telegram Support**
+- **WhatsApp Support**
+
+We hope you find this repository useful and enjoy the Fifth Winter School of Computational Chemistry, happy computing!
